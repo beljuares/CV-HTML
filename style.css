@@ -1,3 +1,4 @@
+/*font-family: 'El Messiri', sans-serif;*/
 body{
     background-color:cornsilk;
 }
@@ -14,22 +15,30 @@ h1{
     background-color: rgb(226, 199, 199);
     font-size: 50px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'El Messiri', sans-serif;
 }
 h2{
     color: salmon;
     font-size: 30px;
     margin: 10px;
     text-align: center;
+    font-family:'El Messiri', sans-serif; ;
+
+}
+.foto{
+    width: 30%;
+    height: 20%;
+    float: right;
 
 }
 img{
-    width: 400px;
-    height: 600px;
-    float: right;
-    border-radius: 200px;
-
+    width: 80%;
+    height:50% ;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    box-shadow: 5px 1px 10px salmon;
 }
+
 h3{
     color: salmon;
     font-size: 20px;
@@ -55,6 +64,7 @@ a{
     padding: 5px;
     text-decoration: none;
     margin: 5px;
+    
 }
 li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -63,4 +73,7 @@ li{
 strong{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(12, 92, 75);
+}
+i{
+    color: white;
 }
